@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.resp{
+  text-align: left;
+  margin-left: 30px;
+  font-size: 20px;
+
+}
+.cityName{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width:370px){
+  .resp{
+    font-size: 15px;
+  
+  }
+}
